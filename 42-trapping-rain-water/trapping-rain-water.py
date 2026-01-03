@@ -1,15 +1,24 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        left_max_arr = [0]
-        right_max_arr = [0]
+        if not height: return 0
+
+        left_pos = 0
+        right_pos = len(height) - 1
+        left_max = height[left_pos]
+        right_max = height[right_pos]
         total_water = 0
 
-        for i in range(1, len(height)):
-            left_max_arr.append(max(left_max_arr[len(left_max_arr) - 1], height[i - 1]))
-            right_max_arr.insert(0, max(right_max_arr[0], height[len(height) - i]))
+        while left_pos < right_pos:
+            if left_max < right_max or left_max == right_max:
+                left_pos += 1
+                left_max = max(left_max, height[left_pos])
+                total_water += left_max - height[left_pos]
+                print(left_max - height[left_pos])
 
-        for i in range(len(height)):
-            if height[i] < min(left_max_arr[i], right_max_arr[i]):
-                total_water += min(left_max_arr[i], right_max_arr[i]) - height[i]
+            elif right_max < left_max:
+                right_pos -= 1
+                right_max = max(right_max, height[right_pos])
+                total_water += right_max - height[right_pos]
+                print(right_max - height[right_pos])
 
         return total_water
