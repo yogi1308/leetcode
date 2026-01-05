@@ -16,19 +16,17 @@ class Solution:
 
         l = 0
         for r in range(len(s1), len(s2) + 1):
-            substr = s2[l : r]
-
             if l != 0:
-                matched_earlier = s2Count[substr[-1]] == s1Count[substr[-1]]
-                s2Count[substr[-1]] = s2Count[substr[-1]] + 1
-                if s2Count[substr[-1]] == s1Count[substr[-1]]: matches += 1
+                matched_earlier = s2Count[s2[r-1]] == s1Count[s2[r-1]]
+                s2Count[s2[r-1]] = s2Count[s2[r-1]] + 1
+                if s2Count[s2[r-1]] == s1Count[s2[r-1]]: matches += 1
                 elif matched_earlier: matches -= 1
 
             if matches == 26: return True
             
-            matched_earlier = s2Count[substr[0]] == s1Count[substr[0]]
-            s2Count[substr[0]] = s2Count[substr[0]] - 1
-            if s2Count[substr[0]] == s1Count[substr[0]]: matches += 1
+            matched_earlier = s2Count[s2[l]] == s1Count[s2[l]]
+            s2Count[s2[l]] = s2Count[s2[l]] - 1
+            if s2Count[s2[l]] == s1Count[s2[l]]: matches += 1
             elif matched_earlier: matches -= 1
 
             l += 1
