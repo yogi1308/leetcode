@@ -1,30 +1,41 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        if t == "":
-            return ""
+        if s == t: return s
+        elif len(s) < len(t): return ""
+        if len(s) == len(t): 
+            if sorted(s) == sorted(t): return s
+            else: return ""
 
-        countT, window = {}, {}
-        for c in t:
-            countT[c] = 1 + countT.get(c, 0)
+        shortest = len(s)
+        shortestStr = ""
+        shortest_start = 0
+        shortest_end = 0
 
-        have, need = 0, len(countT)
-        res, resLen = [-1, -1], float("infinity")
+        tmap = {}
+        smap = {}
+        matches = 0
+        for char in t:
+            tmap[char] = tmap.get(char, 0) + 1
+            smap[char] = 0
+
         l = 0
-        for r in range(len(s)):
-            c = s[r]
-            window[c] = 1 + window.get(c, 0)
+        keys = tmap.keys()
+        for r in range(0, len(s)):
+            if s[r] in keys:
+                smap[s[r]] = smap[s[r]] + 1
+                if smap[s[r]] == tmap[s[r]]: 
+                    matches += 1
+            
+            while matches == len(keys):
 
-            if c in countT and window[c] == countT[c]:
-                have += 1
-
-            while have == need:
-                if (r - l + 1) < resLen:
-                    res = [l, r]
-                    resLen = r - l + 1
-
-                window[s[l]] -= 1
-                if s[l] in countT and window[s[l]] < countT[s[l]]:
-                    have -= 1
+                if matches == len(keys) and shortest >= r - l:
+                    shortest = r - l
+                    shortest_start = l
+                    shortest_end = r + 1
+                if s[l] in keys:
+                    smap[s[l]] = smap[s[l]] - 1
+                    if smap[s[l]] + 1 == tmap[s[l]]:
+                        matches -= 1
                 l += 1
-        l, r = res
-        return s[l : r + 1] if resLen != float("infinity") else ""
+
+        return s[shortest_start : shortest_end]
