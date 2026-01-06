@@ -19,9 +19,6 @@ class Solution:
         l = 0
         keys = tmap.keys()
         for r in range(0, len(s)):
-            if matches == len(keys) and shortest >= r - l:
-                shortest = r - l
-                shortestStr = s[r : l]
             if s[r] in keys:
                 smap[s[r]] = smap[s[r]] + 1
                 if smap[s[r]] == tmap[s[r]]: 
