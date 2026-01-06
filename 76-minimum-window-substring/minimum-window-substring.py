@@ -31,10 +31,12 @@ class Solution:
                 if matches == len(keys) and shortest >= r - l:
                     shortest = r - l
                     shortestStr = s[l : r + 1]
+                    shortest_start = l
+                    shortest_end = r + 1
                 if s[l] in keys:
                     smap[s[l]] = smap[s[l]] - 1
                     if smap[s[l]] + 1 == tmap[s[l]]:
                         matches -= 1
                 l += 1
 
-        return shortestStr
+        return s[shortest_start : shortest_end]
