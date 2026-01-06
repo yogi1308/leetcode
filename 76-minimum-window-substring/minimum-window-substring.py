@@ -1,49 +1,35 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        if not t or not s: return ""
+        shortest = len(s)
+        shortest_start = 0
+        shortest_end = 0
 
-        # 1. Count characters in t
-        t_count = {}
+        tmap = {}
+        smap = {}
+        matches = 0
         for char in t:
-            t_count[char] = t_count.get(char, 0) + 1
-        
-        # 2. Filter s to keep only characters present in t
-        # This is the biggest speed boost for many test cases
-        filtered_s = []
-        for i, char in enumerate(s):
-            if char in t_count:
-                filtered_s.append((i, char))
+            tmap[char] = tmap.get(char, 0) + 1
+            smap[char] = 0
 
-        required = len(t_count)
-        l, r = 0, 0
-        formed = 0
-        window_counts = {}
-        
-        # (length, start_index, end_index)
-        ans = float("inf"), None, None
-
-        # 3. Iterate only over the filtered characters
-        while r < len(filtered_s):
-            char = filtered_s[r][1]
-            window_counts[char] = window_counts.get(char, 0) + 1
-
-            if window_counts[char] == t_count[char]:
-                formed += 1
-
-            # Try to contract
-            while l <= r and formed == required:
-                start_idx = filtered_s[l][0]
-                end_idx = filtered_s[r][0]
-                
-                if end_idx - start_idx + 1 < ans[0]:
-                    ans = (end_idx - start_idx + 1, start_idx, end_idx)
-
-                char_left = filtered_s[l][1]
-                window_counts[char_left] -= 1
-                if window_counts[char_left] < t_count[char_left]:
-                    formed -= 1
-                l += 1
+        l = 0
+        keys = tmap.keys()
+        len_keys = len(keys)
+        for r in range(0, len(s)):
+            if s[r] in keys:
+                smap[s[r]] = smap[s[r]] + 1
+                if smap[s[r]] == tmap[s[r]]: 
+                    matches += 1
             
-            r += 1
+            while matches == len_keys:
 
-        return "" if ans[0] == float("inf") else s[ans[1] : ans[2] + 1]
+                if matches == len_keys and shortest >= r - l:
+                    shortest = r - l
+                    shortest_start = l
+                    shortest_end = r + 1
+                if s[l] in keys:
+                    smap[s[l]] = smap[s[l]] - 1
+                    if smap[s[l]] + 1 == tmap[s[l]]:
+                        matches -= 1
+                l += 1
+
+        return s[shortest_start : shortest_end]
