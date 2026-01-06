@@ -8,6 +8,8 @@ class Solution:
 
         shortest = len(s)
         shortestStr = ""
+        shortest_start = 0
+        shortest_end = 0
 
         tmap = {}
         smap = {}
