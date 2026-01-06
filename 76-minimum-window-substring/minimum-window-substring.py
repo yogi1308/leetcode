@@ -1,13 +1,6 @@
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
-        if s == t: return s
-        elif len(s) < len(t): return ""
-        if len(s) == len(t): 
-            if sorted(s) == sorted(t): return s
-            else: return ""
-
         shortest = len(s)
-        shortestStr = ""
         shortest_start = 0
         shortest_end = 0
 
