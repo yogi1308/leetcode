@@ -17,21 +17,22 @@ class Solution:
             smap[char] = 0
 
         l = 0
+        keys = tmap.keys()
         for r in range(0, len(s)):
-            if matches == len(tmap.keys()) and shortest >= r - l:
+            if matches == len(keys) and shortest >= r - l:
                 shortest = r - l
                 shortestStr = s[r : l]
-            if s[r] in smap.keys():
+            if s[r] in keys:
                 smap[s[r]] = smap[s[r]] + 1
                 if smap[s[r]] == tmap[s[r]]: 
                     matches += 1
             
-            while matches == len(tmap.keys()):
+            while matches == len(keys):
 
-                if matches == len(tmap.keys()) and shortest >= r - l:
+                if matches == len(keys) and shortest >= r - l:
                     shortest = r - l
                     shortestStr = s[l : r + 1]
-                if s[l] in smap.keys():
+                if s[l] in keys:
                     smap[s[l]] = smap[s[l]] - 1
                     if smap[s[l]] + 1 == tmap[s[l]]:
                         matches -= 1
