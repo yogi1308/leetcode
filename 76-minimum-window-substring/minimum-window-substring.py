@@ -13,15 +13,16 @@ class Solution:
 
         l = 0
         keys = tmap.keys()
+        len_keys = len(keys)
         for r in range(0, len(s)):
             if s[r] in keys:
                 smap[s[r]] = smap[s[r]] + 1
                 if smap[s[r]] == tmap[s[r]]: 
                     matches += 1
             
-            while matches == len(keys):
+            while matches == len_keys:
 
-                if matches == len(keys) and shortest >= r - l:
+                if matches == len_keys and shortest >= r - l:
                     shortest = r - l
                     shortest_start = l
                     shortest_end = r + 1
