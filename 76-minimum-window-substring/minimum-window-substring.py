@@ -8,8 +8,6 @@ class Solution:
 
         shortest = len(s)
         shortestStr = ""
-        shortest_start = 0
-        shortest_end = 0
 
         tmap = {}
         smap = {}
@@ -21,6 +19,9 @@ class Solution:
         l = 0
         keys = tmap.keys()
         for r in range(0, len(s)):
+            if matches == len(keys) and shortest >= r - l:
+                shortest = r - l
+                shortestStr = s[r : l]
             if s[r] in keys:
                 smap[s[r]] = smap[s[r]] + 1
                 if smap[s[r]] == tmap[s[r]]: 
@@ -31,12 +32,10 @@ class Solution:
                 if matches == len(keys) and shortest >= r - l:
                     shortest = r - l
                     shortestStr = s[l : r + 1]
-                    shortest_start = l
-                    shortest_end = r + 1
                 if s[l] in keys:
                     smap[s[l]] = smap[s[l]] - 1
                     if smap[s[l]] + 1 == tmap[s[l]]:
                         matches -= 1
                 l += 1
 
-        return s[shortest_start : shortest_end]
+        return shortestStr
