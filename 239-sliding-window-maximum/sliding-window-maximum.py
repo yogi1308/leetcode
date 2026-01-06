@@ -15,5 +15,3 @@ class Solution:
             if i >= k-1:
                 result.append(nums[dp[0]])
         return result
-
-__import__("atexit").register(lambda: open("display_runtime.txt", "w").write("0"))
