@@ -1,25 +1,16 @@
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        result = [0] * len(temperatures)
-        stack = []
-        for i in range(len(temperatures)):
-            while stack and temperatures[i] > temperatures[stack[-1]]:
-                popped_index = stack.pop()
-                result[popped_index] = i - popped_index
-            stack.append(i)
+        n = len(temperatures)
+        res = [0] * n
 
-        return result
+        for i in range(n - 2, -1, -1):
+            j = i + 1
+            while j < n and temperatures[j] <= temperatures[i]:
+                if res[j] == 0:
+                    j = n
+                    break
+                j += res[j]
 
-
-# original brute force solution
-# class Solution:
-#     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-#         result = []
-#         for i in range(len(temperatures)):
-#             max = 0
-#             for j in range(i + 1, len(temperatures)):
-#                 if temperatures[j] > temperatures[i]:
-#                     max = j - i
-#                     break
-#             result.append(max)
-#         return result
+            if j < n:
+                res[i] = j - i
+        return res
