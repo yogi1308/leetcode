@@ -8,5 +8,5 @@ class Solution:
             time = (target - p) /s
             if prev_time == 0 or time > prev_time:
                 fleet += 1
-                prev_time = (target - p) /s
+                prev_time = time
         return fleet
