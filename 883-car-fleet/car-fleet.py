@@ -5,8 +5,6 @@ class Solution:
         stack = []
         for el in pos_speed:
             time = (target - el[0])/el[1]
-            if stack and time > stack[-1]:
-                stack.append((target - el[0])/el[1])
-            if not stack:
+            if not stack or time > stack[-1]:
                 stack.append((target - el[0])/el[1])
         return len(stack)
