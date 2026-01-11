@@ -2,24 +2,16 @@ class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
         stack = []
         for asteroid in asteroids:
-            mag = abs(asteroid)
-            direction = "+" if abs(asteroid) == asteroid else "-"
-            while True:
-                if stack:
-                    prev_asteroid = stack[-1]
-                    prev_ast_mag = abs(prev_asteroid)
-                    prev_ast_dir = "+" if abs(prev_asteroid) == prev_asteroid else "-"
-                    if direction == prev_ast_dir or (prev_ast_dir == "-" and direction == "+"): 
-                        stack.append(asteroid)
-                        break
-                    if mag > prev_ast_mag:
-                        stack.pop()
-                    elif mag < prev_ast_mag:
-                        break
-                    elif mag == prev_ast_mag:
-                        stack.pop()
-                        break
-                else:
-                    stack.append(asteroid)
+            while stack and asteroid < 0 and stack[-1] > 0:
+                curr_mag = abs(asteroid)
+                prev_ast = stack[-1]
+                if curr_mag > prev_ast:
+                    stack.pop()
+                elif curr_mag == prev_ast:
+                    stack.pop()
                     break
+                elif curr_mag < prev_ast:
+                    break
+            else:
+                stack.append(asteroid)
         return stack
