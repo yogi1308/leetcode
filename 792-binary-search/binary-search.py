@@ -5,11 +5,9 @@ class Solution:
         base_idx = 0
         while not found and nums:
             mid = round(len(nums) / 2)
-            print(nums, nums[mid])
             if nums[mid] == target:
                 idx = base_idx + mid
                 found = True
-                print("exec", idx)
             elif nums[mid] < target:
                 nums = nums[mid + 1:]
                 base_idx += mid + 1
