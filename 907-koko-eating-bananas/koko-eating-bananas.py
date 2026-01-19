@@ -7,7 +7,6 @@ class Solution:
             for bananas in piles:
                 if bananas <= test: sum_val += 1
                 else: sum_val += math.ceil(bananas/test)
-                if sum_val > h: break
             if sum_val <= h:
                 high = test - 1
                 print(low, test, high)
