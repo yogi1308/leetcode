@@ -3,7 +3,7 @@ class Solution:
         low, high = 1, max(piles)
         min_val = high
         while low <= high:
-            test = math.floor((high + low) / 2)
+            test = (high + low) // 2
             sum_val = 0
             for bananas in piles:
                 if bananas <= test: sum_val += 1
