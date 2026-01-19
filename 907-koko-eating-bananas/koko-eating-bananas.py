@@ -2,7 +2,7 @@ class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
         low, high = 1, max(piles)
         while low <= high:
-            test = math.floor((high + low) / 2)
+            test = (high + low) // 2
             sum_val = 0
             for bananas in piles:
                 if bananas <= test: sum_val += 1
