@@ -4,9 +4,7 @@ class Solution:
         while low <= high:
             test = (high + low) // 2
             sum_val = 0
-            for bananas in piles:
-                sum_val += math.ceil(bananas/test)
-                if sum_val > h: break
+            sum_val = sum((bananas + test - 1) // test for bananas in piles)
             if sum_val <= h:
                 high = test - 1
             else:
