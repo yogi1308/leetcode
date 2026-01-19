@@ -9,10 +9,8 @@ class Solution:
                 else: sum_val += math.ceil(bananas/test)
             if sum_val <= h:
                 high = test - 1
-                print(low, test, high)
             else:
                 low = test + 1
-                print(low, test, high)
         return low
 
 
