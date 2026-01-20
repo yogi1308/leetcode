@@ -11,6 +11,6 @@ class Solution:
                     appended = True
                 newList.append(intervals[i])
             else:
-                newInterval = [min(*intervals[i], *newInterval), max(*intervals[i],*newInterval)]
+                newInterval = [min(intervals[i][0], newInterval[0]), max(intervals[i][1], newInterval[1])]
         if not appended: newList.append(newInterval)
         return newList
