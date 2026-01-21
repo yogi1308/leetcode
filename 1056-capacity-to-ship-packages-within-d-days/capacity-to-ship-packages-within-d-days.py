@@ -11,6 +11,7 @@ class Solution:
                 else:
                     cnt_days += 1
                     sum_weights = weight
+                if cnt_days > days: break
             if cnt_days <= days: r = mid
             else: l = mid + 1
         return l
