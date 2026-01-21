@@ -10,8 +10,8 @@ class Solution:
                     sum_weights += weight
                 else:
                     cnt_days += 1
+                    if cnt_days > days: break
                     sum_weights = weight
-                if cnt_days > days: break
             if cnt_days <= days: r = mid
             else: l = mid + 1
         return l
