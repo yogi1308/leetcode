@@ -25,7 +25,6 @@ class Solution:
                     break
                 elif longer[mid] < num:
                     l = mid + 1
-                    print("exec", longer[mid], num, l, r)
                 elif longer[mid] > num:
                     r = mid - 1
                 else: l = mid + 1
