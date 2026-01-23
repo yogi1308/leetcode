@@ -17,11 +17,12 @@ class Solution:
                 elif num < longer[mid] and mid == 0: 
                     longer.insert(0, num)
                     break
-                elif longer[mid] < num < longer[mid + 1] or longer[mid] == num:
+                elif longer[mid] < num < longer[mid + 1]:
                     longer.insert(mid + 1, num)
                     break
-                elif longer[mid] < num:
-                    l = mid + 1
+                elif longer[mid] == num:
+                    longer.insert(mid, num)
+                    break
                 elif longer[mid] > num:
                     r = mid - 1
                 else: l = mid + 1
