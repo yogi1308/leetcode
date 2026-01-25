@@ -1,36 +1,50 @@
+# """
+# This is MountainArray's API interface.
+# You should not implement it, or speculate about its implementation
+# """
+#class MountainArray:
+#    def get(self, index: int) -> int:
+#    def length(self) -> int:
+
 class Solution:
     def findInMountainArray(self, target: int, mountainArr: 'MountainArray') -> int:
-        l, r = 0, mountainArr.length() - 1
-        peak = 0
-        peak_val = 0
-        while l < r:
-            mid = (l + r) // 2
-            mid_val = mountainArr.get(mid)
-            mid_val_minus_1 = mountainArr.get(mid - 1)
-            mid_val_plus_1 = mountainArr.get(mid + 1)
-            if mid_val_minus_1 < mid_val and mid_val > mid_val_plus_1:
-                peak = mid
-                peak_val = mid_val
-                break
-            if mid_val < mid_val_plus_1: l = mid + 1
-            elif mid_val < mid_val_minus_1: r = mid
-        
-        if target > peak_val: return -1
-        l, r = 0, peak
-        while l < r:
-            mid = (l + r) // 2
-            mid_val = mountainArr.get(mid)
-            if mid_val == target:
-                return mid
-            if target < mid_val: r = mid
-            else: l = mid + 1
+        length = mountainArr.length()
+        cache = {}
 
-        l, r = peak, mountainArr.length() - 1
+        def get(i):
+            if i not in cache:
+                cache[i] = mountainArr.get(i)
+            return cache[i]
+
+        # Find Peak
+        l, r = 1, length - 2
         while l <= r:
-            mid = (l + r) // 2
-            mid_val = mountainArr.get(mid)
-            if mid_val == target:
-                return mid
-            if target < mid_val: l = mid + 1
-            else: r = mid -1
-        return -1
+            m = (l + r) >> 1
+            left, mid, right = get(m - 1), get(m), get(m + 1)
+            if left < mid < right:
+                l = m + 1
+            elif left > mid > right:
+                r = m - 1
+            else:
+                break
+        peak = m
+
+        def binary_search(l, r, ascending):
+            while l <= r:
+                m = (l + r) >> 1
+                val = get(m)
+                if val == target:
+                    return m
+                if ascending == (val < target):
+                    l = m + 1
+                else:
+                    r = m - 1
+            return -1
+
+        # Search left portion
+        res = binary_search(0, peak, True)
+        if res != -1:
+            return res
+
+        # Search right portion
+        return binary_search(peak, length - 1, False)
