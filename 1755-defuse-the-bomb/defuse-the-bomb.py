@@ -7,6 +7,5 @@ class Solution:
             for j in range(abs(k)):
                 idx = (i + (j * shift) + shift) % len(code) if (i + (j * shift) + shift) >= len(code) else i + (j * shift) + shift
                 sum_this.append(code[idx])
-            print(sum_this)
             output.append(sum(sum_this))
         return output
