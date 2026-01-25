@@ -4,8 +4,7 @@ class Solution:
         nums = sorted(nums)
         min_diff = max(nums)
         while r < len(nums)  + 1:
-            arr = nums[l : r]
-            min_diff = min(min_diff, max(arr) - min(arr))
+            min_diff = min(min_diff, max(nums[l : r]) - min(nums[l : r]))
             l, r = l + 1, r + 1
         return min_diff
                 
