@@ -19,7 +19,7 @@ class Solution:
             length += 1
         
         list2 = None
-        mid = length // 2
+        mid = length // 2 if length % 2 == 0 else (length // 2) + 1
         curr = head
         curr_pos = 1
         while curr_pos < mid:
@@ -47,12 +47,6 @@ class Solution:
             curr2.next = temp
             curr = temp
             curr2 = temp2
-
-        if length % 2 == 1 and length > 1:
-            curr = head
-            while curr.next:
-                curr = curr.next
-            curr.next = temp2
         
         self.printList(curr)
         
