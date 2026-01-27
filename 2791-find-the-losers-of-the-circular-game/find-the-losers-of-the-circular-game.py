@@ -10,7 +10,6 @@ class Solution:
             if curr + (pass_count * k) <= length:
                 curr += (pass_count * k)
             else:
-                print("exec", (curr + (pass_count*k)) % length, pass_count*k)
                 curr = (curr + (pass_count*k)) % length
             pass_count += 1
             if curr == 0: curr = n
