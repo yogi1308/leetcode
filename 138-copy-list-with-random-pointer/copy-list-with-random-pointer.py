@@ -6,7 +6,6 @@ class Node:
         self.next = next
         self.random = random
 """
-import random
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         if not head:
