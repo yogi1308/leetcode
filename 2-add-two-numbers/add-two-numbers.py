@@ -17,11 +17,9 @@ class Solution:
             if l2_curr: 
                 sum_val += l2_curr.val
                 l2_curr = l2_curr.next
-            if sum_val >= 10:
-                carry = 1    
+            carry = 1 if sum_val >= 10 else 0
             curr.next = ListNode(sum_val % 10)
             curr = curr.next
-            if sum_val < 10: carry = 0
         if carry != 0: curr.next = ListNode(carry)
         return dummy.next
             
