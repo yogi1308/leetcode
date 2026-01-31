@@ -8,5 +8,4 @@ class Solution:
                 if word[i] != prefix[i]: 
                     prefix = prefix[: i]
                     break
-            print(prefix)
         return prefix
