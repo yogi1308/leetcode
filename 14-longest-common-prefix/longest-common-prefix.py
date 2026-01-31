@@ -1,7 +1,6 @@
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         prefix = strs[0]
-        if "" in strs: return ""
         for word in strs:
             length = len(prefix)
             if len(prefix) > len(word): prefix = prefix[: len(word)]
