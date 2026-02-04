@@ -12,14 +12,6 @@ class LinkedList:
         self.left.next, self.right.prev = self.right, self.left
         self.size = 0
 
-    def __str__(self) -> str:
-        return_str = ""
-        curr = self.left.next
-        while curr:
-            return_str += f"({curr.key}, {curr.value})"
-            curr = curr.next
-        return return_str
-
     def remove(self, node):
         next, prev = node.next, node.prev
         prev.next, next.prev = next, prev
