@@ -10,7 +10,7 @@ class Solution:
         curr = head 
         counter = 0
         new_head = dummy = ListNode(0)
-        while curr and counter < k:
+        while curr:
             l1.insert(0, curr)
             counter += 1
             curr = curr.next
