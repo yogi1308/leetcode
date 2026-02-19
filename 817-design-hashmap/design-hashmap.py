@@ -1,0 +1,27 @@
+class MyHashMap:
+
+    def __init__(self):
+        self.data = [None] * 1000000
+        
+
+    def put(self, key: int, value: int) -> None:
+        idx = key % 1000000
+        self.data[idx] = value
+        
+    def get(self, key: int) -> int:
+        idx = key % 1000000
+        val = self.data[idx]
+        print(val)
+        if val is not None: return val
+        return -1
+        
+    def remove(self, key: int) -> None:
+        idx = key % 1000000
+        self.data[idx] = None
+
+
+# Your MyHashMap object will be instantiated and called as such:
+# obj = MyHashMap()
+# obj.put(key,value)
+# param_2 = obj.get(key)
+# obj.remove(key)
