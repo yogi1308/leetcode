@@ -1,7 +1,7 @@
 class MyHashMap:
 
     def __init__(self):
-        self.data = [None] * 1000000
+        self.data = [-1] * 1000000
         
 
     def put(self, key: int, value: int) -> None:
@@ -10,13 +10,11 @@ class MyHashMap:
         
     def get(self, key: int) -> int:
         idx = key % 1000000
-        val = self.data[idx]
-        if val is not None: return val
-        return -1
+        return self.data[idx]
         
     def remove(self, key: int) -> None:
         idx = key % 1000000
-        self.data[idx] = None
+        self.data[idx] = -1
 
 
 # Your MyHashMap object will be instantiated and called as such:
