@@ -11,7 +11,6 @@ class MyHashMap:
     def get(self, key: int) -> int:
         idx = key % 1000000
         val = self.data[idx]
-        print(val)
         if val is not None: return val
         return -1
         
