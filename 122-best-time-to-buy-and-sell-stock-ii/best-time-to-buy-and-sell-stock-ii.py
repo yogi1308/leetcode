@@ -4,10 +4,10 @@ class Solution:
         bought = 0
         hold = False
         for i in range(len(prices) - 1):
-            if prices[i] < prices[i + 1] and not hold:
+            if not hold and prices[i] < prices[i + 1]:
                 bought = prices[i]
                 hold = True
-            elif bought < prices[i] and prices[i] > prices[i + 1] and hold:
+            elif hold and bought < prices[i] and prices[i] > prices[i + 1]:
                 profit += prices[i] - bought
                 hold = False
 
