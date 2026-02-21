@@ -10,5 +10,6 @@ class Solution:
         for num in map:
             if map[num] > target:
                 res.append(num)
+                if len(res) == 2: break
         return res
 
