@@ -1,15 +1,21 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> List[int]:
         map = {}
-        target = math.floor(len(nums)/3)
         res = []
+        target = math.floor(len(nums)/3)
         for i in range(len(nums)):
             if nums[i] not in map:
                 map[nums[i]] = 0
             map[nums[i]] = map[nums[i]] + 1
-        for num in map:
-            if map[num] > target:
-                res.append(num)
-                if len(res) == 2: break
-        return res
+            if len(map) > 2:
+                copyMap = map.copy()
+                for num in copyMap:
+                    map[num] = map[num] - 1
+                    if map[num] == 0:
+                        map.pop(num)
 
+
+        for num in map:
+            if nums.count(num) > target:
+                res.append(num)
+        return res
