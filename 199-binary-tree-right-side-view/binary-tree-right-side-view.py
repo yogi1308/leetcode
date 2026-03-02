@@ -17,7 +17,6 @@ class Solution:
             for node in nodes:
                 if node.left: vals.append(node.left)
                 if node.right: vals.append(node.right)
-            print(res)
             if vals: res.append(vals[-1].val)
             return bfs(vals)
 
