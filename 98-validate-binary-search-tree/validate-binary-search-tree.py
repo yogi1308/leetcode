@@ -4,17 +4,20 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-
 class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
-        def valid(node, left, right):
-            if not node:
-                return True
-            if not (left < node.val < right):
-                return False
+        boolean, past = self.traversal(root, None)
+        return boolean
 
-            return valid(node.left, left, node.val) and valid(
-                node.right, node.val, right
-            )
+    def traversal(self, node, past):
+        if not node:
+            return True, past
 
-        return valid(root, float("-inf"), float("inf"))
+        boolean, past = self.traversal(node.left, past)
+        if past is not None:
+            if past>=node.val:
+                return False, past
+        if boolean:
+            past = node.val
+            return self.traversal(node.right, past)
+        return False, past
