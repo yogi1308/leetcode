@@ -9,16 +9,12 @@ class Solution:
     def isValidBST(self, root: Optional[TreeNode]) -> bool:
         def getMin(root, val):
             if not root: return True
-            if root.val <= val: 
-                print(root.val, val, "min")
-                return False
+            if root.val <= val: return False
             return getMin(root.left, val) and getMin(root.right, val)
         
         def getMax(root, val):
             if not root: return True
-            if root.val >= val: 
-                print(root.val, val, "max")
-                return False
+            if root.val >= val: return False
             return getMax(root.left, val) and getMax(root.right, val)
 
         def checkEveryNode(root):
