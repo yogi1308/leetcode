@@ -10,13 +10,16 @@ class Solution:
         count = 0
         res = 0
         def inorder(root):
-            if not root: return
-            inorder(root.left)
             nonlocal count, res
+            if not root or count >= k: return
+            inorder(root.left)
+
             count += 1
             if count == k: 
                 res = root.val
                 return 
+            
             inorder(root.right)
+
         inorder(root)
         return res
