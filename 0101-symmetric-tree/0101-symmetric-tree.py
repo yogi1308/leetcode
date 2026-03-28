@@ -8,13 +8,11 @@ class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
         def checkRoot(lnode, rnode):
             if not lnode and not rnode: return True
-            if not lnode and rnode: return False
-            if lnode and not rnode: return False
+            if lnode and rnode:
+                leftSymmetric = checkRoot(lnode.left, rnode.right)
+                rightSymmetric = checkRoot(lnode.right, rnode.left)
 
-            leftSymmetric = checkRoot(lnode.left, rnode.right)
-            rightSymmetric = checkRoot(lnode.right, rnode.left)
+                return leftSymmetric and rightSymmetric and lnode.val == rnode.val
+            return False
 
-            return leftSymmetric and rightSymmetric and lnode.val == rnode.val
-
-        if not root: return True
         return checkRoot(root.left, root.right)
