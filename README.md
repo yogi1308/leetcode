@@ -8,18 +8,21 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 ## Depth-First Search
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 ## Binary Tree
 |  |
 | ------- |
+| [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -27,4 +30,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
 <!---LeetCode Topics End-->
