@@ -7,12 +7,10 @@ class Solution:
         for task in hmap:
             heap.append([hmap[task] * -1, task])
         heapq.heapify(heap)
-        print(heap)
 
         cycles = 0
         gap = n
         order = []
-        print(hmap)
         while max(hmap.values()) > 0:
             taskcompleted = []
             while gap >= 0 and heap and max(hmap.values()) > 0:
@@ -36,5 +34,4 @@ class Solution:
                 
             gap = n
 
-        print(order)
         return cycles
