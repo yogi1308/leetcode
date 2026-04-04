@@ -1,27 +1,27 @@
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        count = Counter(tasks)
-        heap = [-cnt for cnt in count.values()]
+        hmap = {}
+        for task in tasks:
+            hmap[task] = hmap.get(task, 0) + 1
+        heap = []
+        for task in hmap:
+            heap.append([hmap[task] * -1, task])
         heapq.heapify(heap)
+        hmap = {}
 
         cycles = 0
-        gap = n
         while heap:
+            gap = n
             taskcompleted = []
             while gap >= 0 and heap:
-                task = heapq.heappop(heap)
-                taskcompleted.append(task)
+                taskcompleted.append(heapq.heappop(heap))
                 cycles += 1
                 gap -= 1
             
             for task in taskcompleted:
-                if task != -1:
-                    heapq.heappush(heap, task + 1)
+                if task[0] + 1 != 0:
+                    heapq.heappush(heap, [(task[0] + 1), task[1]])
 
-            while gap >= 0 and heap:
-                cycles += 1
-                gap -= 1
-                
-            gap = n
+            if heap: cycles += 1 + gap
 
         return cycles
