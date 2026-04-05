@@ -1,14 +1,12 @@
 class Twitter:
 
     def __init__(self):
-        self.tweets = []
         self.time = 0
         self.userFollows = {}
         self.userTweets = {}
         
 
     def postTweet(self, userId: int, tweetId: int) -> None:
-        heapq.heappush(self.tweets, [self.time, tweetId, userId])
         if userId in self.userTweets: self.userTweets[userId].append([self.time, tweetId, userId])
         else: self.userTweets[userId] = [[self.time, tweetId, userId]]
         self.time = self.time - 1
