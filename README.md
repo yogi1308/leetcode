@@ -43,11 +43,13 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Design
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogi1308/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogi1308/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Hash Table
 |  |
 | ------- |
+| [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 ## Greedy
 |  |
@@ -99,4 +102,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+## Linked List
+|  |
+| ------- |
+| [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 <!---LeetCode Topics End-->
