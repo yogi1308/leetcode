@@ -1,23 +1,24 @@
-import heapq
-from collections import Counter
-
 class Solution:
     def reorganizeString(self, s: str) -> str:
-        heap = [[-count, char] for char, count in Counter(s).items()]
-        heapq.heapify(heap)
-        
+        heap = []
+        seen = set()
+        for character in s:
+            if character not in seen:
+                times = s.count(character) * -1
+                heapq.heappush(heap, [times, character])
+                seen.add(character)
         string = ""
-        prev = None  # holds [count, char] to push back next iteration
-
+        prev = []
+        popped = []
         while heap:
-            count, char = heapq.heappop(heap)
-            string += char
+            letter = heapq.heappop(heap)
+            string += letter[1]
 
-            if prev:
+            if prev != [] and prev[0] != -1:
+                prev = [prev[0] + 1, prev[1]]
                 heapq.heappush(heap, prev)
-                prev = None
 
-            if count + 1 != 0:
-                prev = [count + 1, char]
+            prev = letter
 
-        return string if len(string) == len(s) else ""
+        return "" if len(string) != len(s) else string
+            
