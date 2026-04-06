@@ -9,7 +9,6 @@ class Solution:
                 seen.add(character)
         string = ""
         prev = []
-        popped = []
         while heap:
             letter = heapq.heappop(heap)
             string += letter[1]
