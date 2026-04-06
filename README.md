@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogi1308/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/yogi1308/leetcode/tree/master/1127-last-stone-weight) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
 |  |
@@ -94,16 +96,23 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 ## Greedy
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 ## Counting
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 ## Linked List
 |  |
 | ------- |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
+## String
+|  |
+| ------- |
+| [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 <!---LeetCode Topics End-->
