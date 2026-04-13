@@ -4,31 +4,19 @@ class Solution:
         if a != 0: heapq.heappush(heap, [a * -1, 'a'])
         if b != 0: heapq.heappush(heap, [b * -1, 'b'])
         if c != 0: heapq.heappush(heap, [c * -1, 'c'])
+        print(heap)
         res = ""
-        q = ['', ''] 
-        
+        prev = []
         while heap:
             popped = heapq.heappop(heap)
-            
-            # Check if using this character would create a triple
-            if res[-2:] == popped[1] * 2:
-                if not heap:
-                    break  # Nowhere to go, stop here
-                
-                # Grab the next best character instead
-                next_popped = heapq.heappop(heap)
-                res += next_popped[1]
-                next_popped[0] += 1
-                
-                # Push both back to re-evaluate in the next loop
-                if next_popped[0] < 0:
-                    heapq.heappush(heap, next_popped)
-                heapq.heappush(heap, popped)
-            else:
-                # Safe to use the most frequent character
+            used = False
+            if not (len(res) >= 2 and res[-1] == res[-2] and popped[1] == res[-1]): 
                 res += popped[1]
-                popped[0] += 1
-                if popped[0] < 0:
-                    heapq.heappush(heap, popped)
-                    
+                popped = [popped[0] + 1, popped[1]]
+                while prev:
+                    heapq.heappush(heap, prev.pop())
+                if popped[0] < 0: heapq.heappush(heap, popped)
+                used = True
+            if not used: prev.append(popped)
+                
         return res
