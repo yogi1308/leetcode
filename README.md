@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -131,10 +132,12 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Combinatorics
 |  |
