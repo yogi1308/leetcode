@@ -4,7 +4,6 @@ class Solution:
         def dfs(subset):
             if len(subset) == len(nums):
                 res.append(subset.copy())
-                print("ran")
                 return
             for i in range(len(nums)):
                 if nums[i] not in subset:
