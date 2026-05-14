@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/yogi1308/leetcode/tree/master/0022-generate-parentheses) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 ## Tree
 |  |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## String
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/yogi1308/leetcode/tree/master/0022-generate-parentheses) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
@@ -136,6 +138,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/yogi1308/leetcode/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/yogi1308/leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/yogi1308/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/yogi1308/leetcode/tree/master/0046-permutations) |
