@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0040-combination-sum-ii](https://github.com/yogi1308/leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/yogi1308/leetcode/tree/master/0046-permutations) |
 | [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/yogi1308/leetcode/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
@@ -144,6 +147,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0046-permutations](https://github.com/yogi1308/leetcode/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/yogi1308/leetcode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bit Manipulation
@@ -160,4 +164,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Matrix
+|  |
+| ------- |
+| [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
