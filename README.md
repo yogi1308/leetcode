@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/yogi1308/leetcode/tree/master/0022-generate-parentheses) |
+| [0131-palindrome-partitioning](https://github.com/yogi1308/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 ## Tree
 |  |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0022-generate-parentheses](https://github.com/yogi1308/leetcode/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
+| [0131-palindrome-partitioning](https://github.com/yogi1308/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
@@ -149,6 +151,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/yogi1308/leetcode/tree/master/0131-palindrome-partitioning) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bit Manipulation
 |  |
