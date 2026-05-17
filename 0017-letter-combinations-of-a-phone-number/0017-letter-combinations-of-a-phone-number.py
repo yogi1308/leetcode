@@ -12,7 +12,6 @@ class Solution:
         }
 
         res = []
-        if digits == "": return []
         def dfs(string, nums):
             if len(string) == len(digits):
                 res.append(string[:])
@@ -21,6 +20,7 @@ class Solution:
                 string += letter
                 dfs(string, nums[1:])
                 string = string[:-1]
-        dfs("", digits)
+        if digits: dfs("", digits)
         return res
+                    
                     
