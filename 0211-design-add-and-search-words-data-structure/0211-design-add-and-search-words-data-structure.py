@@ -18,16 +18,16 @@ class WordDictionary:
 
     def search(self, word: str) -> bool:
         res = False
-        def dfs(curr, word):
-            if not word: return curr.end
-            if word[0] == ".":
+        def dfs(curr, idx):
+            if idx == len(word): return curr.end
+            if word[idx] == ".":
                 for opt in curr.children:
-                    if dfs(curr.children[opt], word[1:]):
+                    if dfs(curr.children[opt], idx + 1):
                         return True
                 return False                    
-            elif word[0] not in curr.children:
+            elif word[idx] not in curr.children:
                 return False
-            return dfs(curr.children[word[0]], word[1:])
+            return dfs(curr.children[word[idx]], idx + 1)
 
-        return dfs(self.root, word)
+        return dfs(self.root, 0)
         
