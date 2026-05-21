@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0295-find-median-from-data-stream](https://github.com/yogi1308/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogi1308/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0131-palindrome-partitioning](https://github.com/yogi1308/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
@@ -208,4 +211,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
