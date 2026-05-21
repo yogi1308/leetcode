@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0295-find-median-from-data-stream](https://github.com/yogi1308/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/yogi1308/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/yogi1308/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0131-palindrome-partitioning](https://github.com/yogi1308/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
@@ -204,4 +207,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
+| [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
