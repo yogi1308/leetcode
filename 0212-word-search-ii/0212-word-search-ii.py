@@ -20,8 +20,9 @@ class Solution:
             addWord(word)
 
         def dfs(x, y, occupied, curr, word):
-            word += board[y][x]
             if (x, y) in occupied: return
+            
+            word += board[y][x]
             if curr.end: 
                 res.add(word[:])
                 
@@ -38,6 +39,7 @@ class Solution:
             if y + 1 < len(board):
                 if board[y+1][x] in curr.children: 
                     dfs(x, y+1, occupied, curr.children[board[y+1][x]], word)
+            
             occupied.remove((x,y))
             return
         
