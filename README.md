@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
+| [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0473-matchsticks-to-square](https://github.com/yogi1308/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/yogi1308/leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
+| [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 | [0473-matchsticks-to-square](https://github.com/yogi1308/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/yogi1308/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -196,6 +199,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
+| [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 ## Bitmask
 |  |
 | ------- |
@@ -212,4 +216,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
