@@ -1,45 +1,50 @@
 class TrieNode:
-    def __init__(self):
+    def __init__(self) -> None:
         self.children = {}
-        self.word = None
+        self.end = False
+        self.word = ""
 
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         root = TrieNode()
-        for word in words:
+        res = set()
+
+        def addWord(word):
             curr = root
             for c in word:
                 if c not in curr.children:
                     curr.children[c] = TrieNode()
                 curr = curr.children[c]
+            curr.end = True
             curr.word = word
 
-        ROWS, COLS = len(board), len(board[0])
-        res = []
+        for word in words:
+            addWord(word)
 
-        def dfs(r, c, curr):
-            ch = board[r][c]
-            if ch not in curr.children:
-                return
-            node = curr.children[ch]
+        def dfs(x, y, curr):
+            ch = board[y][x]
+            if ch not in curr.children: return
+            curr = curr.children[ch]
 
-            if node.word:
-                res.append(node.word)
-                node.word = None
+            if curr.end:
+                res.add(curr.word)
+                curr.end = False
 
-            board[r][c] = "#"
-            for dr, dc in [(-1,0),(1,0),(0,-1),(0,1)]:
-                nr, nc = r + dr, c + dc
-                if 0 <= nr < ROWS and 0 <= nc < COLS and board[nr][nc] != "#":
-                    dfs(nr, nc, node)
-            board[r][c] = ch
+            board[y][x] = "#"
+            if x - 1 >= 0 and board[y][x-1] != "#":
+                dfs(x-1, y, curr)
+            if x + 1 < len(board[0]) and board[y][x+1] != "#":
+                dfs(x+1, y, curr)
+            if y - 1 >= 0 and board[y-1][x] != "#":
+                dfs(x, y-1, curr)
+            if y + 1 < len(board) and board[y+1][x] != "#":
+                dfs(x, y+1, curr)
+            board[y][x] = ch
 
-            # correct pruning: remove from parent's children dict
-            if not node.children and not node.word:
-                del curr.children[ch]
-                
-        for r in range(ROWS):
-            for c in range(COLS):
-                dfs(r, c, root)
+        for y in range(len(board)):
+            for x in range(len(board[0])):
+                dfs(x, y, root)
 
-        return res
+        return list(res)
+
+
