@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0473-matchsticks-to-square](https://github.com/yogi1308/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/yogi1308/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/yogi1308/leetcode/tree/master/1127-last-stone-weight) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -127,6 +128,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
+| [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 ## Greedy
 |  |
 | ------- |
@@ -154,6 +156,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
+| [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1304-longest-happy-string](https://github.com/yogi1308/leetcode/tree/master/1304-longest-happy-string) |
 ## Two Pointers
 |  |
