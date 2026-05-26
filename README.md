@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/yogi1308/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
+| [1039-find-the-town-judge](https://github.com/yogi1308/leetcode/tree/master/1039-find-the-town-judge) |
 | [1127-last-stone-weight](https://github.com/yogi1308/leetcode/tree/master/1127-last-stone-weight) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/yogi1308/leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Math
@@ -129,6 +130,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1039-find-the-town-judge](https://github.com/yogi1308/leetcode/tree/master/1039-find-the-town-judge) |
 ## Greedy
 |  |
 | ------- |
@@ -220,4 +222,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
+## Graph Theory
+|  |
+| ------- |
+| [1039-find-the-town-judge](https://github.com/yogi1308/leetcode/tree/master/1039-find-the-town-judge) |
 <!---LeetCode Topics End-->
