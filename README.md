@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
+| [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
+| [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 ## Design
 |  |
 | ------- |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
+| [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0473-matchsticks-to-square](https://github.com/yogi1308/leetcode/tree/master/0473-matchsticks-to-square) |
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 ## Bitmask
 |  |
@@ -226,4 +230,8 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [1039-find-the-town-judge](https://github.com/yogi1308/leetcode/tree/master/1039-find-the-town-judge) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
