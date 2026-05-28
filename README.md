@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
+| [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 ## Binary Tree
 |  |
@@ -49,6 +50,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 ## Design
 |  |
 | ------- |
@@ -90,6 +92,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0473-matchsticks-to-square](https://github.com/yogi1308/leetcode/tree/master/0473-matchsticks-to-square) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/yogi1308/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -209,6 +212,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
+| [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 ## Bitmask
 |  |
 | ------- |
@@ -234,4 +238,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
