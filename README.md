@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
+| [0130-surrounded-regions](https://github.com/yogi1308/leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/yogi1308/leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0101-symmetric-tree](https://github.com/yogi1308/leetcode/tree/master/0101-symmetric-tree) |
+| [0130-surrounded-regions](https://github.com/yogi1308/leetcode/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/yogi1308/leetcode/tree/master/0133-clone-graph) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/yogi1308/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0078-subsets](https://github.com/yogi1308/leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/yogi1308/leetcode/tree/master/0090-subsets-ii) |
+| [0130-surrounded-regions](https://github.com/yogi1308/leetcode/tree/master/0130-surrounded-regions) |
 | [0140-word-break-ii](https://github.com/yogi1308/leetcode/tree/master/0140-word-break-ii) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
@@ -218,6 +221,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 |  |
 | ------- |
 | [0079-word-search](https://github.com/yogi1308/leetcode/tree/master/0079-word-search) |
+| [0130-surrounded-regions](https://github.com/yogi1308/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/yogi1308/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
@@ -248,6 +252,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 ## Union-Find
 |  |
 | ------- |
+| [0130-surrounded-regions](https://github.com/yogi1308/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
