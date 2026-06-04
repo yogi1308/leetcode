@@ -1,12 +1,12 @@
 class Solution:
     def openLock(self, deadends: List[str], target: str) -> int:
-        ends = set()
-        for num in deadends: ends.add(num)
+        ends = set(deadends)
         if "0000" in ends: return -1
         if "0000" == target: return 0
         q = deque()
         q.append(("0000", 0))
-        visited = set(("0000", 0))
+        visited = set()
+        visited.add("0000")
         def algo(num, intstr, i):
             if intstr == "-1": intstr = "9"
             elif intstr == "10": intstr = "0"
