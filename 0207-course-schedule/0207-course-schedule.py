@@ -5,7 +5,7 @@ class Solution:
         found = False
         def dfs(prereqs, visited):
             nonlocal found
-            if found: return False
+            if found: return 
             for course in prereqs:
                 if course in visited:
                     found = True
@@ -15,16 +15,13 @@ class Solution:
                     if course in hmap: dfs(hmap[course], visited)
                     dfsDone.add(course)
                     visited.remove(course)
-            return True
 
         for course, prereq in prerequisites:
-            if course not in hmap:
-                hmap[course] = []
-            hmap[course].append(prereq)
+            hmap.setdefault(course, []).append(prereq)
 
         for prereq in hmap:
             if prereq not in dfsDone:
                 dfs(hmap[prereq], {prereq})
                 if found: return False
 
-        return False if found else True
+        return True
