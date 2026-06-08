@@ -1,7 +1,7 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         inDeg = [0] * numCourses
-        graph = defaultdict(list)
+        graph = [[] for _ in range(numCourses)]
         res = []
         for course, prereq in prerequisites:
             graph[prereq].append(course)
