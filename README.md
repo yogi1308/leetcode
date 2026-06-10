@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
+| [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
 ## Binary Tree
 |  |
 | ------- |
@@ -63,6 +64,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/yogi1308/leetcode/tree/master/0753-open-the-lock) |
 | [1036-rotting-oranges](https://github.com/yogi1308/leetcode/tree/master/1036-rotting-oranges) |
+| [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
 ## Design
 |  |
 | ------- |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0207-course-schedule](https://github.com/yogi1308/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yogi1308/leetcode/tree/master/0210-course-schedule-ii) |
 | [1039-find-the-town-judge](https://github.com/yogi1308/leetcode/tree/master/1039-find-the-town-judge) |
+| [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
 ## Union-Find
 |  |
 | ------- |
@@ -270,4 +273,5 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0207-course-schedule](https://github.com/yogi1308/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yogi1308/leetcode/tree/master/0210-course-schedule-ii) |
+| [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
 <!---LeetCode Topics End-->
