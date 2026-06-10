@@ -5,16 +5,16 @@ class Solution:
         for crs, prereq in prerequisites:
             hmap[crs].add(prereq)
 
-        res = [False] * len(queries)
-        def dfs(crs, prereq, visited):
-            if crs in visited: return False
-            visited.add(crs)
-            if prereq in hmap[crs]: return True
+        prereqMap = {}
+        def dfs(crs):
+            if crs in prereqMap: return prereqMap[crs]
+            prereqMap[crs] = set()
             for prq in hmap[crs]:
-                if dfs(prq, prereq, visited): return True
+                prereqMap[crs].add(prq)
+                prereqMap[crs] |= dfs(prq)
+            return prereqMap[crs]
 
-        i = 0
         for crs, prereq in queries:
-            if dfs(crs, prereq, set()): res[i] = True
-            i += 1
-        return res
+            dfs(crs)
+
+        return [prereq in prereqMap[crs] for crs, prereq in queries]
