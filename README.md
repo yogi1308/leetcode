@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0337-house-robber-iii](https://github.com/yogi1308/leetcode/tree/master/0337-house-robber-iii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/yogi1308/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
+| [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0207-course-schedule](https://github.com/yogi1308/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yogi1308/leetcode/tree/master/0210-course-schedule-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/yogi1308/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
+| [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/yogi1308/leetcode/tree/master/0753-open-the-lock) |
 | [1036-rotting-oranges](https://github.com/yogi1308/leetcode/tree/master/1036-rotting-oranges) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0133-clone-graph](https://github.com/yogi1308/leetcode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/yogi1308/leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/yogi1308/leetcode/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [1039-find-the-town-judge](https://github.com/yogi1308/leetcode/tree/master/1039-find-the-town-judge) |
 | [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
 ## Union-Find
@@ -267,6 +270,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | ------- |
 | [0130-surrounded-regions](https://github.com/yogi1308/leetcode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
+| [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 ## Topological Sort
 |  |
