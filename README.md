@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0669-trim-a-binary-search-tree](https://github.com/yogi1308/leetcode/tree/master/0669-trim-a-binary-search-tree) |
 | [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/yogi1308/leetcode/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
 ## Binary Tree
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0417-pacific-atlantic-water-flow](https://github.com/yogi1308/leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/yogi1308/leetcode/tree/master/0753-open-the-lock) |
 | [1036-rotting-oranges](https://github.com/yogi1308/leetcode/tree/master/1036-rotting-oranges) |
 | [1558-course-schedule-iv](https://github.com/yogi1308/leetcode/tree/master/1558-course-schedule-iv) |
@@ -112,6 +114,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/yogi1308/leetcode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/yogi1308/leetcode/tree/master/0753-open-the-lock) |
 | [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
@@ -139,6 +142,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0215-kth-largest-element-in-an-array](https://github.com/yogi1308/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/yogi1308/leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [1014-k-closest-points-to-origin](https://github.com/yogi1308/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Quickselect
@@ -155,6 +159,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0355-design-twitter](https://github.com/yogi1308/leetcode/tree/master/0355-design-twitter) |
 | [0621-task-scheduler](https://github.com/yogi1308/leetcode/tree/master/0621-task-scheduler) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/yogi1308/leetcode/tree/master/0753-open-the-lock) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -185,6 +190,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0208-implement-trie-prefix-tree](https://github.com/yogi1308/leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/yogi1308/leetcode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/yogi1308/leetcode/tree/master/0212-word-search-ii) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 | [0753-open-the-lock](https://github.com/yogi1308/leetcode/tree/master/0753-open-the-lock) |
 | [0778-reorganize-string](https://github.com/yogi1308/leetcode/tree/master/0778-reorganize-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/yogi1308/leetcode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -272,6 +278,7 @@ A collection of LeetCode questions to ace the coding interviews! - Created using
 | [0200-number-of-islands](https://github.com/yogi1308/leetcode/tree/master/0200-number-of-islands) |
 | [0684-redundant-connection](https://github.com/yogi1308/leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/yogi1308/leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/yogi1308/leetcode/tree/master/0721-accounts-merge) |
 ## Topological Sort
 |  |
 | ------- |
